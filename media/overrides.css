@@ -1,0 +1,28 @@
+.ptx-content pre.program:before, .ptx-content pre.code-block:before {
+    content: none;
+}
+
+.ptx-content div.code-box:before {
+    content: ' ';
+    font-size: 50%;
+    border-top: 1px solid #aaa;
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 3em;
+}
+
+.ptx-content pre[data-line].program, .ptx-content pre[data-line].code-block
+{
+    padding-left: 2.5em;
+}
+
+.ptx-content pre.program.line-numbers, .ptx-content pre.code-block.line-numbers
+{
+    margin-top: 0;
+    padding-left: 3.5em;
+    border-left: 1px solid #aaa;
+    font-size: 93%;
+    overflow: auto;
+    background: inherit;
+}

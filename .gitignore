@@ -1,0 +1,5 @@
+﻿.vscode/settings.json
+output
+codechat_config.yaml
+.error_schema.log
+cli.log
