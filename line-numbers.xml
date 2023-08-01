@@ -45,7 +45,7 @@
             </pre>
         </p>
 
-        <p>Some highlighted lines - lines 1,3-5:</p>
+        <p>Some highlighted lines - lines 1,3-5,8-9:</p>
         <program language="python" data-line="1,3-5,8-9">
             <input>
             <![CDATA[
@@ -80,7 +80,7 @@
         </p>
 
         <p>Both highlights and line numbers:</p>
-        <program language="python" data-line="1,3-5" line-numbers="yes">
+        <program language="python" data-line="1,3-5,8-9" line-numbers="yes">
             <input>
             <![CDATA[
             x = 10
