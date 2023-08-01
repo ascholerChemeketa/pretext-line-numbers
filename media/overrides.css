@@ -15,7 +15,22 @@
 .ptx-content pre[data-line].program, .ptx-content pre[data-line].code-block
 {
     padding-left: 2.5em;
+    line-height: 1.1em;
 }
+
+.ptx-content pre.program, .ptx-content pre.program code, .ptx-content pre.code-block, .ptx-content pre.code-block code {
+    
+    line-height: 1.1em;
+}
+
+.ptx-content pre[data-line].line-numbers code {
+    padding-top: 0em; /* fine tune based on line-height */
+}
+
+.line-highlight {
+    margin-top: 0em;
+}
+
 
 .ptx-content pre.program.line-numbers, .ptx-content pre.code-block.line-numbers
 {
